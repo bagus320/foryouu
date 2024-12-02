@@ -4,27 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>foryouu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section id="part1">
       <div id="gif-container1">
-        <img id="img1" src="assets/output-onlinegiftools.gif" alt="" />
+        <img
+          class="animate__animated animate__backInDown"
+          id="img1"
+          src="assets/output-onlinegiftools.gif"
+          alt=""
+        />
       </div>
       <div id="gif-container2">
-        <img id="img2" src="assets/cat-peek.gif" />
+        <img
+          class="animate__animated animate__backInUp"
+          id="img2"
+          src="assets/cat-peek.gif"
+        />
       </div>
-      <div id="word1">
-        <h1 class="animate_animated animate__bounce text1">Lorem ipsum</h1>
-        <h1 class="text1">Lorem ipsum dolor sit</h1>
-        <h2>👉👈</h2>
-        <button class="button">dawdaw</button>
+      <div id="p1" class="word">
+        <h1 class="animate__animated animate__backInLeft text1">HAII QILLAAA</h1>
+        <h1 class="text1 animate__animated animate__backInUp">
+          Can I Tell You Something
+        </h1>
+        <h2
+          style="margin-top: 0; margin-bottom: 30px"
+          class="animate__animated animate__fadeInDown"
+        >
+          👉👈
+        </h2>
+        <button onclick="func1()" class="button">sure</button>
+      </div>
+      <div id="p2">
+        <h1 class="animate__animated animate__fadeInDown text1 tm1"">
+          You made me feel something i can't explain, it's like i'm happier when
+          i see your text, see the reels you send everytime, and especially when
+          i met you
+        </h1>
+        <h1 class="animate__animated animate__fadeInRight text1 tm1"">
+          Maybe i've never said or show it, but i think of you almost everytime,
+          you always ask how my day was, and always listen to me yapping about
+          anyhting
+        </h1>
+        <h1 class="animate__animated animate__fadeInUp text1 tm1">
+          You've made me deeply in love with you, qillaa
+        </h1>
+        <button onclick="func2()" class="button animate__fadeInRight">Soo...</button>
+      </div>
+      <div id="p3">
+        <h1 class="text1 animate__animated animate__fadeInUp text1">SOO...</h1>
+        <h1 class="text1 animate__animated animate__fadeInDown">WILL YOU BE MY GIRLFRIEND??</h1>
+        <h1 class="text1 animate__animated animate__fadeInRight">🌹🌹🌹</h1>
+        <button onclick="func3()"class="button animate__fadeInRight">AWW, YESS I WILL</button>
+        <button id="nope" class="button animate__fadeInRight">EWW</button>
+      </div>
+      <div class="animate__animated animate__lightSpeedInLeft" id="yey">
+        <img id="img3"src="/assets/cat-jump.gif">
+        <h1 class="text1">YAAYYY</h1>
       </div>
     </section>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
     <script src="script.js"></script>
   </body>
 </html>
